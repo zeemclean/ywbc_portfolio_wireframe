@@ -8,6 +8,10 @@
 	height: 300px;
 }
 
+.header--work {
+	text-align: center;
+}
+
 .work {
 	height: 200px;
 	width: 200px;
@@ -30,12 +34,27 @@
 }
 
 .break {
+	background: #808080;
+	height: 75px;
 
 }
+
+.icon_case {
+	margin: auto;
+}
+
 
 .icon {
 	background: #ececec;
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+	position: relative;
+	left: 33.3333%;
+	margin-top: 25px;
+
+}
+
+.invisible {
+	visibility: hidden;
 }
