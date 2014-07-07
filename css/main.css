@@ -4,6 +4,10 @@
 
 }
 
+.brief {
+	height: 300px;
+}
+
 .work {
 	height: 200px;
 	width: 200px;
@@ -20,6 +24,18 @@
 	display: none;
 }
 
-.self {
-	height: 300px;
+.project {
+	position:relative;
+	padding-top: 35%;
+}
+
+.break {
+
+}
+
+.icon {
+	background: #ececec;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 }
