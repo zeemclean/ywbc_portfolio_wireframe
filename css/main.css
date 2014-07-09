@@ -3,20 +3,34 @@
 	padding: 0;
 	margin: 0;
 }
+body {
+	background-image: url("../assets/halftone.png");
+}
 
+.duck {
+	color: #bbe8dc;
+}
+
+.coral {
+	color: #E8534D;
+}
+
+.sunshine {
+	color: #ffda55
+}
 
 h1.header--top {
 	font-family: 'Raleway', sans-serif;
 	font-size: 63px;
 	letter-spacing: 38px;
-	color: #666;
+	color: #e8534d;
 	text-transform: uppercase;
 	font-weight: normal;
 	line-height: 39px;
 	padding-bottom: 38px;
 	padding-top: 38px;
 	text-align: center;
-	border-bottom: 4px solid #666;
+	border-bottom: 4px solid #ffda55;
 	left: 10px;
 
 }
@@ -26,7 +40,7 @@ nav {
 	padding-bottom: 63px;
 }
 
-a {
+a.topnav {
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
 	color: #666;
@@ -34,8 +48,13 @@ a {
 	font-weight: normal;
 }
 
-a:hover {
+a.topnav:hover {
 	color: #999;
+}
+
+.about {
+	background-image: url();
+	background-size: cover;
 }
 
 p { 
@@ -71,10 +90,9 @@ h2 {
 }
 
 .break {
-	/*background: #808080;*/
 	height: 105px;
-	 border-top: 4px solid #666;
-	 border-bottom: 4px solid #666;
+	 border-top: 4px solid #bb;
+	 border-bottom: 4px solid #bbe8dc;
 	margin-top: 42px;
 	margin-bottom: 56px;
 
@@ -125,23 +143,42 @@ h2 {
 	display: none;
 }
 
-h3.project {
-	margin: 0;
+h3.project_name {
+	margin:auto;
+	text-align: center;
 	font-weight: normal;
 	color: #fff;
 	font-family: "Raleway", sans-serif;
 	font-size: 23px;
 	letter-spacing: 2px;
-	padding-left: 13px;
 	text-transform: uppercase;
 }
 
-.work .project:hover {
-	background-color: #ececec;
+.work_icon {
+	text-decoration: none;
+}
+
+.work_icon .project:hover {
+	background-color: #ffda55;
 	color: #666;
 	border-radius: 50%;
 }
 
+#carpark {
+	background-image: url("../assets/cE3_pathCars--small.jpg");
+}
+#park_bench {
+	background-image: url("../assets/cE2_pathBench--small.jpg");
+	background-position: 50% 65%;
+}
+#field {
+	background-image: url("../assets/colourExperiment1_field--yellow.jpg");
+	background-position: 15% 15%;
+}
+#beasts {
+	background-image: url("../assets/Farm2--small.jpg");
+	background-position: 55% 45%;
+}
 
 
 .icon_case {
@@ -179,6 +216,28 @@ h3.project {
 	padding-bottom: 63px;
 
 }
+
+
+
+
+.project_heading {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	padding-top: 40px;
+}
+
+.project_subtitle {
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 23px;
+}
+.project_about {
+	padding-right: 20px;
+}
+
+
+
+
 
 footer {
 	height: 180px;
