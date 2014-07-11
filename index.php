@@ -25,7 +25,7 @@
 		<div class="row about">
 			<div class="col-1-2">
 				<div class="content brief video">
-					<video width:"500" height ="281" controls>
+					<video width="500" height ="281" controls>
 						<source src="video/thought_of_you.mp4" type="video/mp4">
 					</video>
 
